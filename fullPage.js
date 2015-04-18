@@ -1408,7 +1408,7 @@
 		}
 
 		function addTableClass(element){
-			element.addClass('fp-table').wrapInner('<div class="fp-tableCell" style="height:' + getTableHeight(element) + 'px; line-height:'+getTableHeight(element) + 'px;" />');
+			element.addClass('fp-table').wrapInner('<div class="fp-tableCell" style="height:' + getTableHeight(element) + 'px;  line-height:'+getTableHeight(element) + 'px;" />');
 		}
 
 		function getTableHeight(element){
